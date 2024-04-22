@@ -1,0 +1,10 @@
+main.c:35:5:main	13
+main.c:111:6:LED_init	1
+main.c:126:6:ADC_init	1
+main.c:135:6:ADC_enable	2
+main.c:144:10:ADC_read	2
+main.c:156:6:PWM_init	1
+main.c:203:6:PWM1_set	1
+main.c:209:6:PWM2_set	1
+main.c:214:6:LD293_init	1
+main.c:223:6:LED_set	8

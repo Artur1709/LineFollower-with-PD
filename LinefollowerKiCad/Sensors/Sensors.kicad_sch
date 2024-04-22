@@ -1,0 +1,54 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid cdacc42a-5b29-417a-af68-5691e8facfed)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 22.86 26.67) (size 15.24 15.24) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid af2bfe4e-749b-49d5-a556-da874a50a50e)
+    (property "Sheetname" "Optical sensors" (at 22.86 25.9584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "optical_sensors.kicad_sch" (at 22.86 42.4946 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "Linefollower"
+        (path "/68a7a9e0-2b3a-4952-9372-fa3c33e420d5" (page "2"))
+      )
+      (project "Sensors"
+        (path "/cdacc42a-5b29-417a-af68-5691e8facfed" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 22.86 48.26) (size 15.24 15.24) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d19f428c-b514-4e0e-a74c-6b2106425617)
+    (property "Sheetname" "LEDs" (at 22.86 47.5484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "LEDs.kicad_sch" (at 22.86 64.0846 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "Linefollower"
+        (path "/68a7a9e0-2b3a-4952-9372-fa3c33e420d5" (page "5"))
+      )
+      (project "Sensors"
+        (path "/cdacc42a-5b29-417a-af68-5691e8facfed" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
